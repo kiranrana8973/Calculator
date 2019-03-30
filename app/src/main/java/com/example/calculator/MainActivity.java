@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 value2 = Float.parseFloat(etDisplay.getText().toString());
                 if(addBoolean)
                 {
-                    etDisplay.setText(value1+value2+"");
+                    etDisplay.setText((value1+value2)+"");
                 }
                 else if(subBoolean)
                 {
